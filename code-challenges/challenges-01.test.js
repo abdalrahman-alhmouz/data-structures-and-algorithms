@@ -9,13 +9,10 @@ Use `forEach` to loop over the input array and work with each value.  Push the n
 ------------------------------------------------------------------------------------------------ */
 
 const addOne = (arr) => {
-  let localArray = [];
-
-  arr.forEach(value => {
-    localArray.push(value + 1);
-  });
-
-  return localArray;
+  let array=[];
+  arr.forEach(value=>{
+    array.push(value +1)});
+    return array;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -27,12 +24,12 @@ Use `forEach` to loop over the input array. Modify each string, and add the upda
 ------------------------------------------------------------------------------------------------ */
 
 const addExclamation = (arr) => {
-  let localArray = [];
-  arr.forEach(value => {
-    localArray.push(value + '!');
-  });
+  let arrayTow=[];
+  arr.forEach(value =>{
+arrayTow.push(value +'!')
+  })
+  return arrayTow
 
-  return localArray;
 };
 
 /* ------------------------------------------------------------------------------------------------
