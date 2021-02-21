@@ -9,13 +9,11 @@ Use `forEach` to loop over the input array and work with each value.  Push the n
 ------------------------------------------------------------------------------------------------ */
 
 const addOne = (arr) => {
-  let localArray = [];
-
-  arr.forEach(value => {
-    localArray.push(value + 1);
-  });
-
-  return localArray;
+  let array =[];
+  arr.forEach(element =>{
+    array.push(element+1)
+  })
+ return array;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -27,12 +25,12 @@ Use `forEach` to loop over the input array. Modify each string, and add the upda
 ------------------------------------------------------------------------------------------------ */
 
 const addExclamation = (arr) => {
-  let localArray = [];
-  arr.forEach(value => {
-    localArray.push(value + '!');
-  });
+  let array =[];
+  arr.forEach(element =>{
+    array.push(element+'!')
+  })
+ return array;
 
-  return localArray;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -44,13 +42,10 @@ Use `forEach` to loop over the input array. The modified strings should each be 
 ------------------------------------------------------------------------------------------------ */
 
 const allUpperCase = (arr) => {
-  let localArray = [];
-
-  arr.forEach(value => {
-    localArray.push(value.toUpperCase());
-  });
-
-  return localArray;
+  let array =[];
+  arr.forEach(value =>
+    array.push(value.toUpperCase()))
+    return array;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -64,17 +59,14 @@ Use `forEach` to build a new array of strings, each string modified by the callb
 ------------------------------------------------------------------------------------------------ */
 
 const greeting = (word) => {
-  return word.toUpperCase() + '!';
+  return word.toUpperCase()+'!'
 };
 
 const speaker = (words, callback) => {
-  let localArray = [];
-
-  words.forEach(value => {
-    localArray.push(callback(value));
-  });
-
-  return localArray;
+  let array =[];
+  array.forEach(value =>
+    array.push(value,callback) )
+ 
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -94,14 +86,10 @@ Return the modified array.
 ------------------------------------------------------------------------------------------------ */
 
 const addValues = (arr, value) => {
-  arr.push(value);
 };
 
 const addNumbers = (num, arr, times, callback) => {
-  for (let index = 0; index < times; index++) {
-    callback(arr, num);
-  }
-  return arr;
+  
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -124,13 +112,7 @@ This function should use forEach to populate your grocery list based on the stor
 
 const createList = (availableItems) => {
   // Solution code here...
-  let list = [];
-  availableItems.forEach(value => {
-    if (value.available) {
-      list.push(value.name);
-    }
-  });
-  return list;
+  
 };
 
 /* ------------------------------------------------------------------------------------------------
