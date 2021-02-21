@@ -14,6 +14,7 @@ const addOne = (arr) => {
     array.push(element+1)
   })
  return array;
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -30,6 +31,7 @@ const addExclamation = (arr) => {
     array.push(element+'!')
   })
  return array;
+
 
 };
 

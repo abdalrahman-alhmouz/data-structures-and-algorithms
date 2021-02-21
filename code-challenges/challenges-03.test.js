@@ -37,6 +37,7 @@ const sortNames = (arr) => {
   return arr.sort();
 };
 
+
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
 Write a function called sortNumbers that takes an array of numbers and sorts them from smallest to largest. 
@@ -70,7 +71,9 @@ const alphabetize = (arr) => {
   // Solution code here...
   return arr.sort();
 };
-
+const sortByPrice =(arr)=>{
+arr.sort(price)
+}
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
 Write a function named sortByPrice that takes in an array of objects, each of which has a 'price' property, and sorts those objects by price, lowest to highest, returning the same array.
