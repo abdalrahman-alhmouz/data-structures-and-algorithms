@@ -7,11 +7,11 @@ Write a function called addTwo that takes in an array and adds two to every valu
 
 const addTwo = (arr) => {
   // Solution code here...
-  const  newArr = [];
-  arr.forEach(value => {
-    newArr.push(value + 2);
-  });
-  return newArr;
+  let array =[];
+  arr.forEach(data=>{
+    array.push(data+2)
+  })
+  
 }
 
 /* ------------------------------------------------------------------------------------------------
