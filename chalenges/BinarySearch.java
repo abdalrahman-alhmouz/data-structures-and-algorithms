@@ -8,37 +8,29 @@ public class Library {
         return true;
     }
 
-    public static int BinarySearch(int[] arrayTow,int n){
-        int num =0 ;
-        for(int i=0;i<arrayTow.length/4;i++){
-            if(n==arrayTow[i]){
-                num=0;
-                num++ ;
-                num++ ;
-
-            }
-        }
-        for(int i=0;i<arrayTow.length/2;i++){
-            if(n==arrayTow[i]){
-                num=0;
-
-                num++ ;
-                num++ ;
-
-            }
-        }
-        for(int i=0;i<arrayTow.length;i++){
-            if(n==arrayTow[i]){
-                num=0;
-                num++ ;
-                num++ ;
-
-            }else if(num!=2){
-                num=-1 ;
-            }
-        }
-
-        return num ;
-
+   public static int BinarySearch(int[] arrayTow,int n){
+    int num =-1 ;
+    for(int i=0;i<arrayTow.length/4;i++){
+      if(n==arrayTow[i]){
+       num=i;
+      }
     }
+     for(int i=0;i<arrayTow.length/2;i++){
+      if(n==arrayTow[i]){
+       num=i ;
+
+      }
+    }
+     for(int i=0;i<arrayTow.length;i++){
+      if(n==arrayTow[i]){
+        num=i;
+
+      }else if(num==-1){
+        num=-1 ;
+      }
+    }
+    
+    return num ;
+
+  }
 }
