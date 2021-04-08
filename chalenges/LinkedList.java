@@ -105,3 +105,9 @@ assertEquals(true,output);
         assertEquals("{5}->{10}->{15}->Null", output);
 
     }
+
+      @Test public void searchHead() {
+        SlinkedList s=new SlinkedList();
+        int size =s.insert(0);
+        assertEquals(1,size);
+    }
