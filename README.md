@@ -1,15 +1,9 @@
-# Reverse an Array
-<!-- Short summary or background information -->
- * write function that accept array and return the revers array .
+# code chaleng
+Here you will find codeChaleng that I have done  to share what I learned with you ! 💙
 
-## Challenge
-<!-- Description of the challenge -->
- * actually it was easy but need some search .
-
-## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
- * self working
-
-## Solution
-<!-- Embedded whiteboard image -->
-it inside white bord 
+ topic          | link  |
+| ------------- | ------------- |
+| chaleng |[Array revers](chalenges/ArrayReverse.java)  |
+| chaleng |[Array shift](chalenges/ArrayShift.java)  |
+| chaleng |[BinarySearch](chalenges/BinarySearch.java)  |
+| chaleng |[linkedList](chalenges/linkedList.java)  |
