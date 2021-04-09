@@ -12,4 +12,4 @@
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![image](https://drive.google.com/file/d/1874_jxUcOV2nhqbPQ0EL2m5kEPA5NNX7/view?usp=sharing)
+it inside white bord 
