@@ -1,10 +1,9 @@
 # Reverse an Array
 <!-- Short summary or background information -->
- * write function that accept array and return the revers array .
-
+* we need to write (insertShiftArray) method that accept int number and array then search and asign the value of the number in the array .
 ## Challenge
 <!-- Description of the challenge -->
- * actually it was easy but need some search .
+ * create a method that accept array and number , then declare new array and int number that equal half length to the array  ,then write for loop to loop into the array then you must write tow if statments and loop in the array until you fint the place then asing it into the array and shift the array , finally return the new array   ..
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
@@ -12,4 +11,4 @@
 
 ## Solution
 <!-- Embedded whiteboard image -->
-!(image)[https://drive.google.com/file/d/1874_jxUcOV2nhqbPQ0EL2m5kEPA5NNX7/view?usp=sharing]
+solution time 3 hour ;
