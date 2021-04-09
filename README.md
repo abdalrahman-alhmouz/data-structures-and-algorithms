@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Reverse an Array
 <!-- Short summary or background information -->
 * we need to write (insertShiftArray) method that accept int number and array then search and asign the value of the number in the array .
@@ -12,3 +13,14 @@
 ## Solution
 <!-- Embedded whiteboard image -->
 solution time 3 hour ;
+=======
+ code chaleng
+Here you will find codeChaleng that I have done  to share what I learned with you ! 💙
+
+ topic          | link  |
+| ------------- | ------------- |
+| chaleng |[Array revers](chalenges/ArrayReverse.java)  |
+| chaleng |[Array shift](chalenges/ArrayShift.java)  |
+| chaleng |[BinarySearch](chalenges/BinarySearch.java)  |
+| chaleng |[linkedList](chalenges/LinkedList.java)  |
+>>>>>>> c65f2501b757758649f29a3be364e8cdce8dd71b
