@@ -1,15 +1,14 @@
-# Data Structures and Algorithms
+# binary Array
+<!-- Short summary or background information -->
+we need to write (BinarySearch) method that accept int number and array then search by binary to find this number .
+## Challenge
+<!-- Description of the challenge -->
+* create a BinarySearch method that accept array and int number , then declare  number that equal (-1)   ,then write for loop to loop into the first quarter  array then you must write another loop  with  if statments and loop in the seqond quarter array  also Repeat this step for each quarter  of the array ,if the condition is checked then return i , else return (-1)   .*
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+ * self working
 
-See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges), in the Code 301 Setup Guide.
+## Solution
+<!-- Embedded whiteboard image -->
+solution time 5 hour ;
 
-## Repository Quick Tour and Usage
-
-### 301 Code Challenges
-
-Under the `data-structures-and-algorithms` repository, at the top level is a folder called `code-challenges`
-
-Each day, you'll add one new file to this folder to do your work for the day's assigned code challenge
-
-### 401 Data Structures, Code Challenges
-
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
