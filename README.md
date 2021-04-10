@@ -1,15 +1,17 @@
-# Data Structures and Algorithms
+# linked List  Array
+<!-- Short summary or background information -->
+we need to write three  method first one store input number in the linkedList ,second method search in the linkedList and third metod return a string with the value in the linkedList  .
+## Challenge
+<!-- Description of the challenge -->
+* create node class eith (data and next)
+ the crate metod that accept number inside this method check if the size is equal to zero or not then asign value to head and tail .
+ 2 - the crate metod that accept number inside this method check if the number is equal to h or not then return true or false .
+ 3 - crate metod in side this method return a string like an array style with the value inside the linkedList .
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+ * self working
 
-See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges), in the Code 301 Setup Guide.
+## Solution
+<!-- Embedded whiteboard image -->
+solution time 4 hour ;
 
-## Repository Quick Tour and Usage
-
-### 301 Code Challenges
-
-Under the `data-structures-and-algorithms` repository, at the top level is a folder called `code-challenges`
-
-Each day, you'll add one new file to this folder to do your work for the day's assigned code challenge
-
-### 401 Data Structures, Code Challenges
-
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
