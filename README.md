@@ -15,7 +15,7 @@ Finally, return the value of h.
 
 ## Solution
 <!-- Embedded whiteboard image -->
-solution time 2 hour ;
+solution time 2 hour ;:
 
 
 Here you will find codeChaleng that I have done  to share what I learned with you ! 💙
