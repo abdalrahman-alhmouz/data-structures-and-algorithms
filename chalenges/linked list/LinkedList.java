@@ -18,7 +18,41 @@ tail=temb;
         size++;
 
     }
+
 }
+    // _____________________________________________{{{{code Chaleng 07}}}}
+
+    public String returnValue(int val){
+    int i=0 ;
+        testo tem=new testo();
+        testo h=head;
+        while (h!=null){
+            if (val<0){
+                return "Exeption";
+            }else{
+                while (i>=0){
+                    if(h.next==null){
+                    h=head;
+                        if(val>i){
+                            return "Exeption";
+//                            break;
+                        }else{
+                            for (int j=i-1;j>=val;j--){
+                                h=h.next;
+                            }
+                            return h.data+"";
+                        }}else{
+
+                        h=h.next;
+                    }
+                    ++i;
+                }}
+            return h.data +"";
+
+        }
+        return "Exeption";
+    }
+    // _____________________________________________{{{{code Chaleng}}}}
 
     public String insertAfter(int val,int newVal){
             testo tem=new testo();
@@ -34,7 +68,6 @@ tail=temb;
             }
         return "Exeption";
     }
-    
     public String insertBefore(int val,int newVal){
         testo tem=new testo();
         testo h=head;
